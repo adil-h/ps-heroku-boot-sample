@@ -21,6 +21,7 @@ public class RiverController {
 	@Autowired
 	private RestTemplate restTemplate;
 	
+	@Autowired
 	private SampleRepository sampleRepository;
 
 	@RequestMapping(method = RequestMethod.GET)
