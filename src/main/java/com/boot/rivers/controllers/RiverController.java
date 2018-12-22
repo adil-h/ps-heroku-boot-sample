@@ -38,7 +38,7 @@ public class RiverController {
 		return res;
 	}
 	
-	@RequestMapping(method = RequestMethod.GET)
+	@RequestMapping(path ="samples",method = RequestMethod.GET)
 	public List<Sample> listSample() {
 		
 		return sampleRepository.findAll();
